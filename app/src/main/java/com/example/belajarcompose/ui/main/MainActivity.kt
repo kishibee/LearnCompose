@@ -232,3 +232,9 @@ fun TopBar() {
     )
 }
 
+@Preview(showBackground = true, device = Devices.PIXEL_4, showSystemUi = true)
+@Composable
+fun TopAppPreview() {
+    TopBar()
+}
+
